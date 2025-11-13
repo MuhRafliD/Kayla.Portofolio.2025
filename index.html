@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kayla Portfolio 2025</title>
+  <link rel="stylesheet" href="css/stylekayla.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <img src="image/logo kecil.png" alt="Logo" class="logo-img">
+      <h1>Kayla Portofolio</h1>
+    </div>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#projects">Portofolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-left">
+      <div class="icon-animation-container" id="icon-container">
+        <img src="image/icon-01.png" class="hero-icon icon-1" alt="Icon 1">
+        <img src="image/icon-02.png" class="hero-icon icon-2" alt="Icon 2">
+        <img src="image/icon-03.png" class="hero-icon icon-3" alt="Icon 3">
+        <img src="image/icon-04.png" class="hero-icon icon-4" alt="Icon 4">
+        <img src="image/icon-05.png" class="hero-icon icon-5" alt="Icon 5">
+        <img src="image/icon-06.png" class="hero-icon icon-6" alt="Icon 6">
+      </div>
+    </div>
+    <div class="hero-right">
+      <h1>Kayla<br>Portofolio<br>2025</h1>
+      <button id="explore-btn" class="explore-btn">
+        Explore
+      </button>
+      </div>
+  </section>
+
+<section id="about" class="about-section">
+    <h2 class="section-title">About Me</h2> 
+    <div class="about-grid">
+      <div class="about-image">
+        <img src="image/asetkayla.png" alt="About Illustration">
+      </div>
+      <div class="about-text">
+        <p>
+          I am a Visual Communication Design student majoring in New Media at Binus University. 
+          I love playing with colors, layouts, and illustrations. To me, design is a space to 
+          experiment with emotions, shapes, and imagination.
+        </p>
+        <p>
+          I am ready to show how I think, experiment, and translate ideas into communicative visuals. 
+          I am always passionate about learning and collaborating in creative and challenging environments.
+        </p>
+      </div>
+    </div>
+
+    <div class="edu-skill-container">
+      <div class="edu-skill-left">
+        <h3>Education</h3>
+        <ul class="edu-list">
+          <li><span class="edu-tag">SMA Yasporbi</span> 2020–2023</li>
+          <li><span class="edu-tag">BINUS University</span> 2023–present</li>
+        </ul>
+       
+        <h3>Skills (Design & Software)</h3>
+        <div class="skill-tags">
+          <span>Illustration</span><span>Web Design</span><span>Branding</span>
+          <span>Mockup Creation</span><span>Print Design</span><span>3D Modeling</span>
+          <span>Layout & Composition</span>
+          <span>Adobe Illustrator</span><span>Adobe Photoshop</span><span>Procreate</span>
+          <span>Blender</span><span>Canva</span><span>Figma</span>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <h3>Experience</h3>
+        <ul>
+          <li>Freelance graphic designer</li>
+          <li>Visual content creator intern</li>
+          <li>Collaborative projects in branding & illustration</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects" class="projects-section">
+    <h2 class="section-title">Creative Projects Showcase</h2>
+
+    <div class="project-grid">
+
+        <div class="project-card" onclick="openModal(1)">
+            <div class="card-image-wrapper">
+                <img src="image/cover poster.png" alt="Website Layout Design">
+            </div>
+            <div class="card-content-bottom">
+                <h2>Website Layout</h2>
+                <p>Modern responsive web design with clean aesthetics and optimal user experience.</p>
+                <button class="card-btn">View More...</button>
+            </div>
+        </div>
+
+        <div class="project-card" onclick="openModal(2)">
+            <div class="card-image-wrapper">
+                <img src="image/cover teh booklet.png" alt="Booklet Teh Design">
+            </div>
+            <div class="card-content-bottom">
+                <h2>Booklet Teh</h2>
+                <p>Creative booklet design showcasing traditional tea culture with modern layout.</p>
+                <button class="card-btn">View More...</button>
+            </div>
+        </div>
+
+        <div class="project-card" onclick="openModal(3)">
+            <div class="card-image-wrapper">
+                <img src="image/cover buavita.png" alt="Buavita Packaging Redesign">
+            </div>
+            <div class="card-content-bottom">
+                <h2>Redesign Packaging Buavita</h2>
+                <p>Complete packaging overhaul for Buavita to appeal to younger demographic.</p>
+                <button class="card-btn">View More...</button>
+            </div>
+        </div>
+
+        <div class="project-card" onclick="openModal(4)">
+            <div class="card-image-wrapper">
+                <img src="image/cover ibis.png" alt="Ibis Logo Redesign">
+            </div>
+            <div class="card-content-bottom">
+                <h2>Redesign Logo Ibis</h2>
+                <p>Sophisticated logo redesign for Ibis hotel chain reflecting modern hospitality.</p>
+                <button class="card-btn">View More...</button>
+            </div>
+        </div>
+
+        <div class="project-card" onclick="openModal(5)">
+            <div class="card-image-wrapper">
+                <img src="image/cover 3D ILLUSTRATION -09.png" alt="3D Animation Project">
+            </div>
+            <div class="card-content-bottom">
+                <h2>3D Animation</h2>
+                <p>Stylized 3D animation showcasing character modeling and environment design.</p>
+                <button class="card-btn">View More...</button>
+            </div>
+        </div>
+        
+        <div class="project-card" onclick="openModal(6)">
+            <div class="card-image-wrapper">
+                <img src="image/mural.png" alt="Mural Digital Illustration">
+            </div>
+            <div class="card-content-bottom">
+                <h2>Mural Digital Illustration</h2>
+                <p>Large-scale digital mural blending traditional and modern illustration techniques.</p>
+                <button class="card-btn">View More...</button>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+  <div id="projectModal" class="modal">
+    <div class="modal-content">
+
+        <span class="close-btn" onclick="closeModal()"><i class="fas fa-times"></i></span>
+
+        <div class="modal-carousel-panel">
+            <div id="carouselTrack" class="carousel-track">
+                </div>
+            <i class="carousel-nav prev fas fa-chevron-left" onclick="changeSlide(-1)"></i>
+            <i class="carousel-nav next fas fa-chevron-right" onclick="changeSlide(1)"></i>
+        </div>
+
+        <div class="modal-description-panel">
+            <h2 id="modalTitle">Judul Proyek</h2>
+            <div id="modalDescriptionText">Deskripsi...</div>
+            <div id="modalTags" class="modal-tags">
+                </div>
+            <div class="modal-link-wrapper">
+                <a href="#" id="modalLink" class="modal-link" target="_blank">
+                    Visit Live Site
+                </a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+  <section id="contact" class="contact">
+    <div class="contact-header">
+      <h2>More About Me:</h2>
+      <div class="message-box">
+        <input type="text" placeholder="Submit your message...">
+        <button>Send</button>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-left">
+        <h3>Contact Me :</h3>
+        <p>@kaylaramadina</p>
+        <p>kaylaramadina28@gmail.com</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Portofolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-social">
+        <h4>Social Media</h4>
+        <p>@kaylaramadina</p>
+        <p>kaylaramadina28@gmail.com</p>
+      </div>
+    </footer>
+
+    <div class="copyright">
+      © 2025 Kayla Ramadina. All rights reserved.
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
